@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicago Art Institute Gallery</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <div class="gallery-container">
+        <div class="gallery"> <!--TODO Add onclick event listener for figures-->
+            <figure class="gallery_item gallery_item-1" id="fig1" onclick="event.stopPropagation(); getInfo(this.id, event)" >
+                <img class="gallery_img" id="154235" src="images/girl_by_the_window.jpeg" alt="The Girl By The Window">
+            </figure>
+
+            <figure class="gallery_item gallery_item-2" id="fig2" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img class="gallery_img" id="160226" src="images/gasthof_zur_muldentalsperre.jpeg" alt="Gasthof zur Muldentalsperre">
+            </figure>
+
+            <figure class="gallery_item gallery_item-3" id="fig3" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img class="gallery_img" id="72801" src="images/icebound.jpeg" alt="Icebound">
+            </figure>
+
+            <figure class="gallery_item gallery_item-4" id="fig4" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img class="gallery_img" id="65868" src="images/silver_sun.jpeg" alt="Silver Sun">
+            </figure>
+
+            <figure class="gallery_item gallery_item-5" id="fig5" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img class="gallery_img" id="83642" src="images/greyed_rainbow.jpeg" alt="Greyed Rainbow">
+            </figure>
+
+            <figure class="gallery_item gallery_item-6" id="fig6" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <img class="gallery_img" id="24306" src="images/Blue_and_green_music.jpeg" alt="Blue and Green Music">
+            </figure>
+            <figure class="gallery_item gallery_item-7" id="fig7" onclick="event.stopPropagation(); getInfo(this.id, event)">
+                <h1 class="inner-header gallery_img"></h1>
+            </figure>
+        </div>
+    </div>
+    
+</body>
+</html>
