@@ -1,9 +1,3 @@
-
-let title;
-let artist;
-let date_displayed;
-let art_type;
-
 /**
  * 
  * @param img_index 
